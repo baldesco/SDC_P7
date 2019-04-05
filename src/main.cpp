@@ -110,7 +110,7 @@ int main() {
 
           // Vectors to store the cars that the ego vehicle sees on its right and left lanes
           vector<vector<double>> left_sensed_cars = {};
-			    vector<vector<double>> right_sensed_cars = {};
+		  vector<vector<double>> right_sensed_cars = {};
 
           // Find ref_v to use
           // Loop through all the cars detected by the sensors on the same side of the road
